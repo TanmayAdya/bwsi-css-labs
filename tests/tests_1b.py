@@ -13,7 +13,8 @@ def test_addition():
     assert simple_calculator("add", 0, 0) == 0          # Test for zero addition
 
 def test_subtraction():
-    assert simple_calculator("subtract", 5, 3) == 2     # Test for positive numbers
+    assert simple_calculator("subtract", 5, 3) == 2
+    assert simple_calculator("subtract", 9, 1) == 8     # Test for positive numbers
     assert simple_calculator("subtract", -2, -2) == 0   # Test for negative numbers
     assert simple_calculator("subtract", 0, 5) == -5    # Test for zero minuend
 
